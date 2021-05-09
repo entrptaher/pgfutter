@@ -3,14 +3,14 @@ sudo: false
 addons:
   postgresql: 9.4
 go:
-  - 1.8
-  - 1.9
+  - 1.15
+  - 1.16
   - tip
 cache:
   directories:
   - samples
 install:
-  - go get github.com/codegangsta/cli
+  - go get github.com/urfave/cli
   - go get github.com/lib/pq
   - go get github.com/kennygrant/sanitize
   - go get github.com/cheggaaa/pb

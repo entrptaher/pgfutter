@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codegangsta/cli"
 	"github.com/kennygrant/sanitize"
+	"github.com/urfave/cli"
 )
 
 //tries to create the schema and ignores failures to do so.

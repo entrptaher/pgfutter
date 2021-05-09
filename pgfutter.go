@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 )
 
 //Parse table to copy to from given filename or passed flags

@@ -1,6 +1,11 @@
-# pgfutter [![Build Status](https://travis-ci.org/lukasmartinelli/pgfutter.svg?branch=master)](https://travis-ci.org/lukasmartinelli/pgfutter) [![Go Report Card](https://goreportcard.com/badge/github.com/lukasmartinelli/pgfutter)](https://goreportcard.com/report/github.com/lukasmartinelli/pgfutter) ![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+# pgfutter
+[![Build Status](https://travis-ci.com/raginjason/pgfutter.svg?branch=master)](https://travis-ci.com/raginjason/pgfutter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/raginjason/pgfutter)](https://goreportcard.com/report/github.com/raginjason/pgfutter)
+![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 <img align="right" alt="elephant" src="elephant.jpg" />
+
+> As the original [pgfutter](https://github.com/lukasmartinelli/pgfutter) project was dead for a few years, it was forked in 2021 so that development could continue.
 
 Import CSV and line delimited JSON into PostgreSQL the easy way.
 This small tool abstract all the hassles and swearing you normally
@@ -42,7 +47,7 @@ chmod +x pgfutter
 **Install from source**
 
 ```bash
-go get github.com/lukasmartinelli/pgfutter
+go get github.com/raginjason/pgfutter
 ```
 
 If you are using Windows or 32-bit architectures you need to [download the appropriate binary
